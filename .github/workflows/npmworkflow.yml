@@ -17,8 +17,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: NPM Tests
-      uses: anna-money/github-actions-npm@v1
     - name: Run a multi-line script
       run: |
         npm run ng serve
