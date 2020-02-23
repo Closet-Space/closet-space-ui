@@ -1,19 +1,54 @@
-<div class="container">
-  <nav>
-    <ul>
-      <li>
-        <a routerLink="/" routerLinkActive="active">Landing Page</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" routerLink="/" routerLinkActive="active"
+    >Closet Space</a
+  >
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
       </li>
-      <li>
-        <a routerLink="/signup" routerLinkActive="active">User sign up</a>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/what-we-do" routerLinkActive="active"
+          >What we do</a
+        >
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/products" routerLinkActive="active"
+          >Products</a
+        >
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about" routerLinkActive="active"
+          >About</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active"
+          >Contact Us</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/signup" routerLinkActive="active"
+          >Sign Up</a
+        >
       </li>
     </ul>
-  </nav>
+  </div>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
 </div>
-
-<h1>
-  Angular Router
-</h1>
-
-
-<router-outlet></router-outlet>
