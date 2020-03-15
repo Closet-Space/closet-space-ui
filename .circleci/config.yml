@@ -11,7 +11,7 @@ jobs:
           steps:
             - run: npm install
             - run: npm rebuild
-            - run: npm testci
+            - run: npm run testci
 workflows:
   build-and-test:
     jobs:
