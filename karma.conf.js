@@ -25,8 +25,13 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
+<<<<<<< HEAD:karma.conf.js
     browsers: ['Chrome'],
     singleRun: false,
     restartOnFileChange: true
+=======
+    browsers: ['ChromeHeadless'],
+    singleRun: true
+>>>>>>> fe99bbed6a507d8ad64c893827f4d2fdee5c32b0:src/karma.conf.js
   });
 };
