@@ -7,9 +7,9 @@ import { LandingPageComponent } from "./landing-page/landing-page.component";
 import { AboutPageComponent } from "./about-page/about-page.component";
 import { NavigationBarComponent } from "./navigation-bar/navigation-bar.component";
 import { SignUpPageComponent } from "./sign-up-page/sign-up-page.component";
-import { ContactPageComponent } from './contact-page/contact-page.component';
-import { ProductPageComponent } from './product-page/product-page.component';
-import { FooterComponent } from './footer/footer.component';
+import { ContactPageComponent } from "./contact-page/contact-page.component";
+import { ProductPageComponent } from "./product-page/product-page.component";
+import { FooterComponent } from "./footer/footer.component";
 
 @NgModule({
   declarations: [
