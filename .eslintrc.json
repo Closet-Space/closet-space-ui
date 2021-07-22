@@ -1,0 +1,35 @@
+{
+    "extends": [
+      "airbnb",
+      "plugin:cypress/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "plugins": [
+      "cypress", 
+      "chai-friendly",
+      "react", 
+      "react-hooks"
+    ],
+    "rules": {
+      "no-console": 0,
+      "no-param-reassign": [2, { "props": false }],
+      "no-unused-expressions": 0,
+      "chai-friendly/no-unused-expressions": 2,
+      "cypress/no-assigning-return-values": "error",
+      "cypress/no-unnecessary-waiting": "error",
+      "cypress/assertion-before-screenshot": "warn",
+      "cypress/no-force": "warn",
+      "cypress/no-async-tests": "error",
+      "react/jsx-props-no-spreading": "off",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "prettier/prettier": ["error", {"endOfLine": "auto"}]
+    },
+    "env": {
+      "browser": true,
+      "es6": true,
+      "mocha": true
+    }
+  }
+  
+  
